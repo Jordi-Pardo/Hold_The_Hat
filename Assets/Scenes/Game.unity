@@ -736,6 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419187414}
   - component: {fileID: 419187413}
+  - component: {fileID: 419187415}
   - component: {fileID: 419187412}
   m_Layer: 0
   m_Name: _GameManager
@@ -803,6 +804,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419187415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419187411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f5940f491ef0ca4ab5d5a0c76461468, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerContainers:
+  - obj: {fileID: 1737978420}
+    nameText: {fileID: 1126033436}
+    hatTimeSlider: {fileID: 1966402133}
+  - obj: {fileID: 1300925698}
+    nameText: {fileID: 1688088130}
+    hatTimeSlider: {fileID: 71472746}
+  - obj: {fileID: 1536584020}
+    nameText: {fileID: 3159125}
+    hatTimeSlider: {fileID: 868545280}
+  - obj: {fileID: 241064732}
+    nameText: {fileID: 457094764}
+    hatTimeSlider: {fileID: 1241153402}
+  winText: {fileID: 2129010660}
 --- !u!1 &457094762
 GameObject:
   m_ObjectHideFlags: 0

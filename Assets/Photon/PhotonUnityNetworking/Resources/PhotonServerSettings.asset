@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 
+    AppIdRealtime: eb0cdc65-81f6-4d7e-9b8c-3d8c7050e795
     AppIdChat: 
     AppIdVoice: 
     AppVersion: 
@@ -38,4 +38,4 @@ MonoBehaviour:
   - UpdateLobbyUI
   - WinGame
   DisableAutoOpenWizard: 1
-  ShowSettings: 0
+  ShowSettings: 1

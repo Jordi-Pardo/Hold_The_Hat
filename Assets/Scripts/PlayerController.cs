@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable
         float x = Input.GetAxis("Horizontal") * moveSpeed;
         float z = Input.GetAxis("Vertical") * moveSpeed;
 
-        rig.velocity = new Vector3(x, rig.velocity.y, z);
+        rig.velocity = new Vector3(z, rig.velocity.y, -x);
     }
 
     void TryJump()
