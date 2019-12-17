@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviourPunCallbacks, IPunObservable
         if(id == 1)
         {
             GameManager.instance.GiveHat(id, true);
+            MeshRenderer renderer = GetComponent<MeshRenderer>();
+            renderer.material.color = Color.green;
         }
 
         if (!photonView.IsMine)

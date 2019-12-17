@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     public int playerWithHat;
     private int playersInGame;
 
+    
+
     // instance
     public static GameManager instance;
     private void Awake()
@@ -52,6 +54,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         PlayerController playerScript = playerObj.GetComponent<PlayerController>();
 
         playerScript.photonView.RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
+
     }
 
     public PlayerController GetPlayer(int playerId)
